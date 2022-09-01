@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import { useEffect } from "react"
 import { useWorkoutsContext } from "../../hooks/useWorkoutsContext2"
 import WorkoutForm from './WorkoutForm';
-import WorkoutDetails_2 from './WorkoutDetails_2';
+import WorkoutDetails02 from './WorkoutDetails02';
 
 const Admin2Page = () => {
   const { newss, dispatch } = useWorkoutsContext()
@@ -28,7 +28,7 @@ const Admin2Page = () => {
       <div className="home">
       <div className="workouts">
       {newss && newss.map(news => (
-        <WorkoutDetails_2 news={news} key={news._id} />
+        <WorkoutDetails02 news={news} key={news._id} />
       ))}
 
       </div>
