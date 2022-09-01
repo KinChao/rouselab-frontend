@@ -7,6 +7,7 @@ import './news.css'
 import WorkoutDetails from "./WorkoutDetails"
 
 
+
 // components
 
 
