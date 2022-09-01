@@ -32,6 +32,7 @@ const WorkoutDetails_2 = ({ news }) => {
       
       <div>
         <img 
+        alt=""
         style={{height: 150, width: 159}}
         src={news.photo}/>
       </div>

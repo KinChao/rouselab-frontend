@@ -19,7 +19,7 @@ const WorkoutDetails2_2 = ({ people }) => {
   }
 
 
-  if (people.identifier =="2"){
+  if (people.identifier ==="2"){
   return (
     
     
@@ -31,6 +31,7 @@ const WorkoutDetails2_2 = ({ people }) => {
 <p style={{color:'#F1F1F1', fontSize:'5px'}}>1</p>
 <div>
   <img 
+  alt=""
   style={{height: 250, width: 250}}
   src={people.selectedFile}/>
 </div>

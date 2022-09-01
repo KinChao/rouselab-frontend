@@ -48,6 +48,7 @@ const ContactPage = () => {
       <Col flex={"350px"}>
       <div>
         <img 
+        alt =""
         style={{ width: 300}}
         src={image3}/>
       </div>
@@ -89,7 +90,7 @@ const ContactPage = () => {
       <Col flex={2}></Col>
       <Col flex={1}>
         <div className='img1'>
-          <img 
+          <img alt=""
           style={{width: 200}}
           src={image1}/>
         </div>
@@ -98,6 +99,7 @@ const ContactPage = () => {
       <Col flex={1}>
         <div className='img2'>
             <img 
+            alt=""
             style={{width: 180}}
             src={image2}/>
           </div>

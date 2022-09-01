@@ -6,7 +6,6 @@ import { Typography, Layout, Menu  } from 'antd'
 import './news.css'
 import WorkoutDetails from "./WorkoutDetails"
 
-const { Text } = Typography;
 
 // components
 

@@ -1,4 +1,4 @@
-import { useWorkoutsContext } from '../../hooks/useWorkoutsContext'
+
 // date fns
 import { Col, Row, Typography } from 'antd';
 import './people.css'
@@ -6,21 +6,12 @@ import './people.css'
 const { Text,Title, Link  } = Typography;
 
 const WorkoutDetails2 = ({ people }) => {
-  const { dispatch } = useWorkoutsContext()
+  
 
-  const handleClick = async () => {
-    const response = await fetch('/api/peoples/' + people._id, {
-      method: 'DELETE'
-    })
-    const json = await response.json()
-
-    if (response.ok) {
-      dispatch({type: 'DELETE_WORKOUT', payload: json})
-    }
-  }
+  
 
 
-  if (people.identifier =="2"){
+  if (people.identifier ==="2"){
   return ( 
     
     <div className="workout-details2">
@@ -32,6 +23,7 @@ const WorkoutDetails2 = ({ people }) => {
       
       <div>
         <img 
+        alt=""
         style={{height: 250, width: 250}}
         src={people.selectedFile}/>
       </div>

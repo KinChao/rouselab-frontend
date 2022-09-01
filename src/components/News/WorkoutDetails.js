@@ -1,4 +1,4 @@
-import { useWorkoutsContext } from '../../hooks/useWorkoutsContext2'
+
 // date fns
 
 import { Col, Row, Typography } from 'antd';
@@ -7,19 +7,9 @@ import './news.css'
 const { Title  } = Typography;
 
 const WorkoutDetails = ({ news }) => {
-  const { dispatch } = useWorkoutsContext()
+  
 
-  const handleClick = async () => {
-    const response = await fetch('/api/newss/' + news._id, {
-      method: 'DELETE'
-    })
-    const json = await response.json()
-
-    if (response.ok) {
-      dispatch({type: 'DELETE_WORKOUT', payload: json})
-    }
-  }
-
+  
 
   
   return ( 
@@ -33,6 +23,7 @@ const WorkoutDetails = ({ news }) => {
       
       <div>
         <img 
+        alt=""
         style={{height: 150, width: 150}}
         src={news.photo}/>
       </div>

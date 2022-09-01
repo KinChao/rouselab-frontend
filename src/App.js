@@ -111,10 +111,10 @@ const App = () => (
 
       <Row>
       <Col span={12}>
-        <img src={image1} className='left1'/>
+        <img src={image1} alt="" className='left1'/>
       </Col> 
       <Col span={12}>
-        <img src={image2} className='right1'/>
+        <img src={image2} alt="" className='right1'/>
       </Col>
       </Row>
 
@@ -144,10 +144,10 @@ const App = () => (
 
       <Row>
       <Col span={12}>
-        <img src={image3} className='left2'/>
+        <img src={image3} alt="" className='left2'/>
       </Col> 
       <Col span={12}>
-        <img src={image4} className='right2'/>
+        <img src={image4} alt="" className='right2'/>
       </Col>
       </Row>
       
