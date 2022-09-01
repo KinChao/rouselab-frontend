@@ -63,7 +63,7 @@ const WorkoutForm = () => {
         type="text" 
         onChange={(e) => setTitle(e.target.value)} 
         value={title}
-        
+        className={emptyFields.includes('title') ? 'error' : ''}
       />
 
       <label>Description:</label>
@@ -71,7 +71,7 @@ const WorkoutForm = () => {
         type="text" 
         onChange={(e) => setDescription(e.target.value)} 
         value={description}
-        
+        className={emptyFields.includes('description') ? 'error' : ''}
       />
 
       <button>Add news</button>
