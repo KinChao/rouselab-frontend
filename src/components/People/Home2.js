@@ -2,9 +2,9 @@ import { useEffect } from "react"
 import { useWorkoutsContext } from "../../hooks/useWorkoutsContext"
 
 // components
-import WorkoutDetails_2 from "./WorkoutDetails_2"
-import WorkoutDetails2_2 from "./WorkoutDetails2_2"
-import WorkoutDetails3_2 from "./WorkoutDetails3_2"
+import WorkoutDetails02 from "./WorkoutDetails02"
+import WorkoutDetails202 from "./WorkoutDetails202"
+import WorkoutDetails302 from "./WorkoutDetails302"
 import WorkoutForm from "./WorkoutForm"
 import WorkoutForm2 from "./WorkoutForm2"
 import WorkoutForm3 from "./WorkoutForm3"
@@ -29,7 +29,7 @@ const Home2 = () => {
     <><div className="home">
     <div className="workouts">
       {peoples && peoples.map(people => (
-        <WorkoutDetails_2 people={people} key={people._id} />
+        <WorkoutDetails02 people={people} key={people._id} />
       ))}
     </div>
     <WorkoutForm />
@@ -38,7 +38,7 @@ const Home2 = () => {
   <div className="home">
   <div className="workouts">
     {peoples && peoples.map(people => (
-      <WorkoutDetails2_2 people={people} key={people._id} />
+      <WorkoutDetails202 people={people} key={people._id} />
     ))}
   </div>
   <WorkoutForm2 />
@@ -47,7 +47,7 @@ const Home2 = () => {
   <div className="home">
   <div className="workouts">
     {peoples && peoples.map(people => (
-      <WorkoutDetails3_2 people={people} key={people._id} />
+      <WorkoutDetails302 people={people} key={people._id} />
     ))}
   </div>
   <WorkoutForm3 />
