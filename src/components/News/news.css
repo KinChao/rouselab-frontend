@@ -1,0 +1,27 @@
+.workout-details3 {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+box {
+  padding: 10px;
+
+  margin-left: 20px;
+
+}
+
+.left6 {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+.left5 {
+  margin-left: 3%;
+  margin-right: 5%;
+  margin-top: 0.5%
+}
