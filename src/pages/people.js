@@ -1,5 +1,5 @@
-import { BrowserRouter, Routes, Route, Link} from 'react-router-dom'
-import { Typography, Col, Row, Layout, Menu  } from 'antd'
+import {  Link} from 'react-router-dom'
+import { Typography,Layout, Menu  } from 'antd'
 
 import './people.css'
 

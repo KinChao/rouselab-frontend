@@ -1,10 +1,10 @@
 import { useWorkoutsContext } from '../../hooks/useWorkoutsContext2'
 // date fns
-import formatDistanceToNow from 'date-fns/formatDistanceToNow'
-import { Col, Divider, Row, Typography } from 'antd';
+
+import { Col, Row, Typography } from 'antd';
 import './news.css'
 
-const { Text,Title, Link  } = Typography;
+const { Title  } = Typography;
 
 const WorkoutDetails = ({ news }) => {
   const { dispatch } = useWorkoutsContext()

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Typography, Col, Row, Layout, Menu  } from 'antd'
+import { Typography, Layout, Menu  } from 'antd'
 import './App.css'
 
 

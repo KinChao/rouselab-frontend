@@ -5,9 +5,6 @@ import { useWorkoutsContext } from "../../hooks/useWorkoutsContext"
 import WorkoutDetails from "./WorkoutDetails"
 import WorkoutDetails2 from "./WorkoutDetails2"
 import WorkoutDetails3 from "./WorkoutDetails3"
-import WorkoutForm from "./WorkoutForm"
-import WorkoutForm2 from "./WorkoutForm2"
-import WorkoutForm3 from "./WorkoutForm3"
 
 const Home = () => {
   const { peoples, dispatch } = useWorkoutsContext()

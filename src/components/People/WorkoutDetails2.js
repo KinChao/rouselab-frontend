@@ -1,7 +1,6 @@
 import { useWorkoutsContext } from '../../hooks/useWorkoutsContext'
 // date fns
-import formatDistanceToNow from 'date-fns/formatDistanceToNow'
-import { Col, Divider, Row, Typography } from 'antd';
+import { Col, Row, Typography } from 'antd';
 import './people.css'
 
 const { Text,Title, Link  } = Typography;
