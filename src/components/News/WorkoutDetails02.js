@@ -9,7 +9,7 @@ const WorkoutDetails02 = ({ news }) => {
   const { dispatch } = useWorkoutsContext()
 
   const handleClick = async () => {
-    const response = await fetch('/api/newss/' + news._id, {
+    const response = await fetch('https://rouselab.herokuapp.com/api/newss' + news._id, {
       method: 'DELETE'
     })
     const json = await response.json()
