@@ -11,7 +11,7 @@ const Home = () => {
 
   useEffect(() => {
     const fetchWorkouts = async () => {
-      const response = await fetch('/api/peoples')
+      const response = await fetch('https://rouselab.herokuapp.com/api/peoples')
       const json = await response.json()
 
       if (response.ok) {

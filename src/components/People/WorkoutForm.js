@@ -28,7 +28,7 @@ const WorkoutForm = () => {
     const people = {name, role, affiliation, description, email, identifier, selectedFile}
     
 
-    const response = await fetch('/api/peoples', {
+    const response = await fetch('https://rouselab.herokuapp.com/api/peoples', {
       method: 'POST',
       body: JSON.stringify(people),
       headers: {
