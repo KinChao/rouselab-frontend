@@ -10,7 +10,7 @@ const Admin2Page = () => {
 
   useEffect(() => {
     const fetchWorkouts = async () => {
-      const response = await fetch('https://rouselab.herokuapp.com/api/newss')
+      const response = await fetch('https://rouselab.herokuapp.com/api/newss/')
       const json = await response.json()
 
       if (response.ok) {

@@ -38,42 +38,42 @@ const ContactPage = () => {
     <div>
 
 
-      <div style={{ fontSize: '20px', marginTop: '2%', marginLeft: '30%', marginRight: '30%', textAlign: 'left',}}><p>If you’d like to know more about the research or are thinking of joining us, feel free to contact us. Informal discussions are very welcome. I’m always happy to discuss and support postdocs and students</p></div>
+      <div style={{ fontSize: '20px', marginTop: '2%', marginLeft: '20%', marginRight: '20%', textAlign: 'left',}}><p>If you’d like to know more about the research or are thinking of joining us, feel free to contact us. Informal discussions are very welcome. I’m always happy to discuss and support postdocs and students</p></div>
     </div>
 
     <div className='left11'>
 
     <Row >
 
-      <Col flex={"350px"}>
+      <Col flex={"500px"}>
       <div>
         <img 
         alt =""
-        style={{ width: 300}}
+        style={{ width: 350}}
         src={image3}/>
       </div>
       </Col>
-
+      
       <Col flex="auto"  >
       <div >
       <p style={{color:'#F1F1F1'}}>1</p>
-     
-      <Title level={3}><div style={{textAlign: 'left'}}>Dr Sarah Rouse</div></Title>
+      <p style={{color:'#F1F1F1'}}>1</p>
+      <Title level={2}><div style={{textAlign: 'left'}}>Dr Sarah Rouse</div></Title>
       <p style={{color:'#F1F1F1'}}>1</p>
       
     
 
-      <div style={{fontSize: '16px',textAlign: 'left'}}>Imperial College London</div>
+      <div style={{fontSize: '18px',textAlign: 'left'}}>Imperial College London</div>
       <p style={{color:'#F1F1F1'}}>1</p>
-      <div style={{fontSize: '16px',textAlign: 'left'}}>Department of Life Science</div>
+      <div style={{fontSize: '18px',textAlign: 'left'}}>Department of Life Science</div>
       <p style={{color:'#F1F1F1'}}>1</p>
-      <div style={{fontSize: '16px',textAlign: 'left'}}>Level 5, Sir Ernst Chain Building</div>
+      <div style={{fontSize: '18px',textAlign: 'left'}}>Level 5, Sir Ernst Chain Building</div>
       <p style={{color:'#F1F1F1'}}>1</p>
-      <div style={{fontSize: '16px',textAlign: 'left'}}>South Kensington, SW7 2AZ</div>
+      <div style={{fontSize: '18px',textAlign: 'left'}}>South Kensington, SW7 2AZ</div>
       <p style={{color:'#F1F1F1'}}>1</p>
-      <div style={{fontSize: '16px',textAlign: 'left'}}>London, United Kingdom</div>
+      <div style={{fontSize: '18px',textAlign: 'left'}}>London, United Kingdom</div>
       <p style={{color:'#F1F1F1'}}>1</p>
-      <div style={{fontSize: '16px',textAlign: 'left'}}>
+      <div style={{fontSize: '18px',textAlign: 'left'}}>
         <Text underline><a href="mailto:s.rouse@imperial.ac.uk">s.rouse@imperial.ac.uk</a></Text>
       </div>
 
