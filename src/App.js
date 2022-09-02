@@ -127,7 +127,7 @@ const App = () => (
       <Col flex={8}></Col>
 
       <Col flex={1}>
-      <div style={{fontSize: '25px',textAlign: 'left'}}>
+      <div style={{fontSize: '25px',textAlign: 'center'}}>
         X-Ray Crystallography
       </div>
       </Col>
