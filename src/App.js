@@ -91,7 +91,7 @@ const App = () => (
       <p style={{color:'#F1F1F1'}}>1</p>
 
       <Row>
-      <Col flex={8}></Col>
+      <Col flex={9}></Col>
 
       <Col flex={1}>
       <div style={{fontSize: '25px',textAlign: 'left'}}>
@@ -101,10 +101,10 @@ const App = () => (
       <Col flex={3}></Col>
       <Col flex={2}>
       <div style={{fontSize: '25px',textAlign: 'right'}}>
-        Cryo-Electron Miscoscopy
+        Cryo-Electron Miscoscopy   
       </div>
       </Col>
-      <Col flex={8}></Col>
+      <Col flex={9}></Col>
       </Row>
 
       <p style={{color:'#F1F1F1'}}>1</p>
