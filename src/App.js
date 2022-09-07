@@ -7,13 +7,18 @@ import image2 from './images/p2.jpg'
 import image3 from './images/p3.jpg'
 import image4 from './images/p41.jpg'
 import AppHeader from './components/Common/header'
-
+import { Helmet } from 'react-helmet';
 
 const { Header, Content, Footer } = Layout;
 
 
 const App = () => (
+  
   <Layout>
+    <Helmet>
+        <title>Home | RouseLab</title>
+    </Helmet>
+    
     <div>
       <Header style={{background: '#bfbfbf'}}>
         <AppHeader />

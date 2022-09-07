@@ -5,7 +5,7 @@ import image1 from './images/p1.png'
 import image2 from './images/p22.png'
 import image3 from './images/p3.jpg'
 import AppHeader from '../Common/header'
-
+import { Helmet } from 'react-helmet';
 
 const { Title, Text} = Typography;
 const { Header, Content, Footer } = Layout;
@@ -15,6 +15,10 @@ const ContactPage = () => {
 
   return (
   <Layout>
+    <Helmet>
+        <title>Contact | RouseLab</title>
+    </Helmet>
+
     <div>
       <Header style={{background: '#bfbfbf'}}>
         <AppHeader />

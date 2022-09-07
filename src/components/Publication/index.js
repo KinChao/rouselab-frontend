@@ -2,7 +2,7 @@ import React from 'react'
 import { Typography, Layout, Row, Col  } from 'antd'
 import './App.css'
 import AppHeader from '../Common/header'
-
+import { Helmet } from 'react-helmet';
 
 const { Text } = Typography;
 
@@ -12,6 +12,10 @@ const PublicationPage = () => {
 
   return (
     <Layout>
+      <Helmet>
+        <title>Puclications | RouseLab</title>
+    </Helmet>
+
     <div>
       <Header style={{background: '#bfbfbf'}}>
         <AppHeader />

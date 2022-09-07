@@ -5,7 +5,7 @@ import './people.css'
 
 // pages & components
 import Home from '../components/People/Home'
-
+import { Helmet } from 'react-helmet';
 
 
 
@@ -17,6 +17,9 @@ function PeoplePage() {
   return (
     
     <Layout>
+      <Helmet>
+        <title>People | RouseLab</title>
+      </Helmet>
     <div>
     <Header style={{background: '#bfbfbf'}}>
         <AppHeader />

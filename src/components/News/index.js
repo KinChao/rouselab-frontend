@@ -5,13 +5,14 @@ import {  Layout  } from 'antd'
 import './news.css'
 import WorkoutDetails from "./WorkoutDetails"
 import AppHeader from "../Common/header"
-
+import { Helmet } from 'react-helmet';
 
 // components
 
 
 
 const NewsPage = () => {
+
   const { newss, dispatch } = useWorkoutsContext()
 
   const { Header, Content, Footer } = Layout;
@@ -31,7 +32,11 @@ const NewsPage = () => {
   }, [dispatch])
 
   return (
+    
     <Layout>
+      <Helmet>
+        <title>News | RouseLab</title>
+    </Helmet>
     <div>
       <Header style={{background: '#bfbfbf'}}>
         <AppHeader />
