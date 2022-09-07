@@ -35,7 +35,7 @@ const WorkoutDetails = ({ news }) => {
       <div style={{fontSize: '16px',textAlign: 'left'}} className='left5'>
       {news.description}
       </div>
-      <p style={{color:'#F1F1F1'}}>1</p>
+      <p style={{color:'#f0f2f5'}}>1</p>
 
       
       </Col>

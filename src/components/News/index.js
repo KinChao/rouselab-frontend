@@ -44,7 +44,7 @@ const NewsPage = () => {
     </div>
     <Content>
 
-    <p style={{color:'#F1F1F1'}}>1</p>
+    <p style={{color:'#f0f2f5'}}>1</p>
 
     <div className="left6">
       <div >

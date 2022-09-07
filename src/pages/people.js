@@ -29,8 +29,8 @@ function PeoplePage() {
     <Content className="site-layout">
 
 
-    <p style={{color:'#F1F1F1'}}>1</p>
-    <p style={{color:'#F1F1F1', fontSize:'3px'}}>1</p>
+    <p style={{color:'#f0f2f5'}}>1</p>
+    <p style={{color:'#f0f2f5', fontSize:'3px'}}>1</p>
 
     <div className='left4'><Home /></div>
     

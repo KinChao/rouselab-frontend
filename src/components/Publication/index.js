@@ -26,8 +26,8 @@ const PublicationPage = () => {
 
 
 
-    <p style={{color:'#FFFFFF'}}>1</p>
-    <p style={{color:'#FFFFFF'}}>1</p>
+    <p style={{color:'#f0f2f5'}}>1</p>
+    <p style={{color:'#f0f2f5'}}>1</p>
 
 
 
@@ -47,7 +47,7 @@ const PublicationPage = () => {
 
 <Col xs={{ span: 1 }} sm={{ span: 7 }} md={{ span: 7 }}></Col>  
 <Col xs={{ span: 22 }} sm={{ span: 10 }} md={{ span: 10 }}>
-<div className="contentHolder2">
+<div className="contentHolder2" style={{fontSize:'18px'}} >
 Feel free to contact us if you have trouble accessing a publication of interest. We also welcome informal inquiries and open discussions about our research.  
 </div>
 </Col>

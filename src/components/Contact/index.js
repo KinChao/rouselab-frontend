@@ -40,8 +40,8 @@ const ContactPage = () => {
 
       <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span: 5 }}></Col>
       <Col xs={{ span: 16 }} sm={{ span: 5 }} md={{ span: 5 }}>
-      <p style={{color:'#F1F1F1'}}>1</p>
-      <p style={{color:'#F1F1F1'}}>1</p>
+      <p style={{color:'#f0f2f5'}}>1</p>
+      <p style={{color:'#f0f2f5'}}>1</p>
         <div>
           <img 
           alt =""
@@ -55,22 +55,22 @@ const ContactPage = () => {
       <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span: 2 }}></Col>
       <Col xs={{ span: 22 }} sm={{ span: 5 }} md={{ span: 7 }}>
 
-      <p style={{color:'#F1F1F1'}}>1</p>
-      <p style={{color:'#F1F1F1'}}>1</p>
-      <p style={{color:'#F1F1F1'}}>1</p>
+      <p style={{color:'#f0f2f5'}}>1</p>
+      <p style={{color:'#f0f2f5'}}>1</p>
+      <p style={{color:'#f0f2f5'}}>1</p>
       <Title level={2}><div style={{textAlign: 'left'}}>Dr Sarah Rouse</div></Title>
-      <p style={{color:'#F1F1F1'}}>1</p>
+      <p style={{color:'#f0f2f5'}}>1</p>
 
       <div style={{fontSize: '18px',textAlign: 'left'}}>Imperial College London</div>
-      <p style={{color:'#F1F1F1'}}>1</p>
+      <p style={{color:'#f0f2f5'}}>1</p>
       <div style={{fontSize: '18px',textAlign: 'left'}}>Department of Life Science</div>
-      <p style={{color:'#F1F1F1'}}>1</p>
+      <p style={{color:'#f0f2f5'}}>1</p>
       <div style={{fontSize: '18px',textAlign: 'left'}}>Level 5, Sir Ernst Chain Building</div>
-      <p style={{color:'#F1F1F1'}}>1</p>
+      <p style={{color:'#f0f2f5'}}>1</p>
       <div style={{fontSize: '18px',textAlign: 'left'}}>South Kensington, SW7 2AZ</div>
-      <p style={{color:'#F1F1F1'}}>1</p>
+      <p style={{color:'#f0f2f5'}}>1</p>
       <div style={{fontSize: '18px',textAlign: 'left'}}>London, United Kingdom</div>
-      <p style={{color:'#F1F1F1'}}>1</p>
+      <p style={{color:'#f0f2f5'}}>1</p>
       <div style={{fontSize: '18px',textAlign: 'left'}}>
         <Text underline><a href="mailto:s.rouse@imperial.ac.uk">s.rouse@imperial.ac.uk</a></Text>
       </div>
@@ -85,8 +85,8 @@ const ContactPage = () => {
       <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span: 5 }}></Col>
       <Col xs={{ span: 11 }} sm={{ span: 5 }} md={{ span: 4 }}>
 
-      <p style={{color:'#F1F1F1'}}>1</p>
-      <p style={{color:'#F1F1F1'}}>1</p>
+      <p style={{color:'#f0f2f5'}}>1</p>
+      <p style={{color:'#f0f2f5'}}>1</p>
 
       <div className='img1'>
           <img alt=""
@@ -95,8 +95,8 @@ const ContactPage = () => {
         </div>
       </Col>
       <Col xs={{ span: 11 }} sm={{ span: 5 }} md={{ span: 4 }}>
-      <p style={{color:'#F1F1F1'}}>1</p>
-      <p style={{color:'#F1F1F1'}}>1</p>
+      <p style={{color:'#f0f2f5'}}>1</p>
+      <p style={{color:'#f0f2f5'}}>1</p>
 
         <div className='img2'>
               <img 
@@ -108,8 +108,8 @@ const ContactPage = () => {
       <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span: 6 }}></Col>
     </Row>
     
-    <p style={{color:'#F1F1F1'}}>1</p>
-    <p style={{color:'#F1F1F1'}}>1</p>
+    <p style={{color:'#f0f2f5'}}>1</p>
+    <p style={{color:'#f0f2f5'}}>1</p>
     
     </Content>
     <Footer

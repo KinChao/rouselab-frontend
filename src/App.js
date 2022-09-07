@@ -26,8 +26,8 @@ const App = () => (
     </div>
     <Content className="site-layout">
 
-    <p style={{color:'#FFFFFF'}}>1</p>
-    <p style={{color:'#F1F1F1'}}>1</p>
+    <p style={{color:'#f0f2f5'}}>1</p>
+    <p style={{color:'#f0f2f5'}}>1</p>
 
       <div className="container-fluid">
       <div>
@@ -61,7 +61,7 @@ const App = () => (
       </p> 
       </div>
       </div>
-      <p style={{color:'#F1F1F1'}}>1</p>
+      <p style={{color:'#f0f2f5'}}>1</p>
 
 
 
@@ -74,8 +74,8 @@ const App = () => (
              Molecular Simulations
           </div>
 
-          <p style={{color:'#F1F1F1'}}>1</p>
-          <p style={{color:'#F1F1F1'}}>1</p>
+          <p style={{color:'#f0f2f5'}}>1</p>
+          <p style={{color:'#f0f2f5'}}>1</p>
             <Card
               style = {{background: '#f0f2f5'}}
               bordered={false}
@@ -87,7 +87,7 @@ const App = () => (
           <div style={{fontSize: '20px',textAlign: 'center'}}>
             Cryo-Electron Miscoscopy
           </div>
-          <p style={{color:'#F1F1F1'}}>1</p>
+          <p style={{color:'#f0f2f5'}}>1</p>
             <Card
               style = {{background: '#f0f2f5'}}
               bordered={false}
@@ -104,7 +104,7 @@ const App = () => (
           <div style={{fontSize: '20px',textAlign: 'center'}}>
             X-Ray Crystallography
           </div>
-          <p style={{color:'#F1F1F1'}}>1</p>
+          <p style={{color:'#f0f2f5'}}>1</p>
             <Card
               style = {{background: '#f0f2f5'}}
               bordered={false}
@@ -119,7 +119,7 @@ const App = () => (
           <div style={{fontSize: '20px',textAlign: 'center'}}>
             Next Generation Sequencing
           </div>
-          <p style={{color:'#F1F1F1'}}>1</p>
+          <p style={{color:'#f0f2f5'}}>1</p>
             <Card
               style = {{background: '#f0f2f5'}}
               bordered={false}
@@ -133,7 +133,7 @@ const App = () => (
         </Row>
         </div>
 
-      <p style={{color:'#F1F1F1'}}>1</p>
+      <p style={{color:'#f0f2f5'}}>1</p>
 
 
 
