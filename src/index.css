@@ -115,9 +115,6 @@ div.error {
   margin: 20px 0;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 components-layout-demo-fixed .logo {
   float: left;
