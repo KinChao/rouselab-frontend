@@ -16,20 +16,19 @@ const WorkoutDetails = ({ news }) => {
     
     <div className="workout-details3">
     
-    <Row wrap={false}>
+    <Row>
 
-
-      <Col flex="150px">
-      
-      <div>
+      <Col xs={{ span: 0 }} sm={{ span: 0 }} md={{ span: 0 }}></Col>
+      <Col xs={{ span: 12 }} sm={{ span: 3 }} md={{ span: 2 }}>
+      <div >
         <img 
         alt=""
-        style={{height: 150, width: 150}}
         src={news.photo}/>
       </div>
       </Col>
+      <Col xs={{ span: 12 }} sm={{ span: 0 }} md={{ span: 0 }}></Col>
 
-      <Col flex="auto" >
+      <Col xs={{ span: 24 }} sm={{ span: 21 }} md={{ span: 22 }}>
       <Title level={3}><div style={{textAlign: 'left'}} className='left5'>{news.title}</div></Title>
 
       

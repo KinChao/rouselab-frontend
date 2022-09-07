@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -95,3 +95,28 @@
 
 
 
+.titleHolder {
+  text-align: center;
+  position: relative;
+
+  margin: 0 0 40px;
+}
+
+
+
+.titleHolder h2 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.contentHolder {
+  text-align: center;
+  margin: 0 0 50px;
+}
+
+.center {
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}

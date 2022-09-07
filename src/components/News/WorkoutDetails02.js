@@ -33,7 +33,7 @@ const WorkoutDetails02 = ({ news }) => {
       <div>
         <img 
         alt=""
-        style={{height: 150, width: 159}}
+        style={{height: 150, width: 150}}
         src={news.photo}/>
       </div>
       </Col>

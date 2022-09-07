@@ -21,6 +21,9 @@ code {
   --error: #e7195a;
 }
 body {
+  display: flex;
+  flex-direction: column;
+  height:100vh;
   background: #f1f1f1;
   margin: 0;
   font-family: "Poppins";

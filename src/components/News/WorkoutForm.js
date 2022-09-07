@@ -25,11 +25,12 @@ const WorkoutForm = () => {
     const news = {title, description, photo}
     
 
-    const response = await fetch('https://rouselab.herokuapp.com/newss/', {
+    const response = await fetch('https://rouselab.herokuapp.com/api/newss', {
       method: 'POST',
       body: JSON.stringify(news),
       headers: {
         'Content-Type': 'application/json'
+        
       }
     })
     const json = await response.json()

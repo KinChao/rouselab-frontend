@@ -2,6 +2,8 @@
   background: #fff;
   border-radius: 4px;
   margin: 20px auto;
+
+
   padding: 20px;
   position: relative;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
@@ -30,3 +32,25 @@
   border-radius: 50%;
   color: #333;
 }
+
+.center {
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+.center2 {
+
+  margin-top: 1%;
+  margin-left: 4%;
+
+}
+
+
+
+.site-layout .site-layout-background {
+  background: #fff  ;
+}
+
+
