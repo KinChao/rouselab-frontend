@@ -27,7 +27,7 @@ const ContactPage = () => {
 
     <Content className="site-layout">
     
-
+    <p style={{color:'#f0f2f5'}}>1</p>
     <Row>
       <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span: 5 }}></Col>
       <Col xs={{ span: 22 }} sm={{ span: 14 }} md={{ span: 14 }}>
