@@ -1,0 +1,57 @@
+.left11 {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3%
+}
+
+.left55 {
+  margin-left: 3%;
+  margin-right: 5%;
+  margin-top: 0.5%
+}
+
+.imgcenter {
+  
+
+    width: 40%;
+  
+}
+
+.imgcenter2 {
+
+  width: 60%;
+
+}
+
+.img2 {
+  
+  margin-top: -2%;
+  margin-left: 10%;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+
+.center1 {
+  text-align: center;
+}
+
+.contentHolder3 {
+  text-align: left;
+  margin: 0 0 50px;
+}
+
+
+.workout-details4 {
+  background: #fff;
+  border-radius: 4px;
+  
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
