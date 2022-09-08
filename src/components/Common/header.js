@@ -35,6 +35,7 @@ function AppHeader() {
             <Link className='link1' to='/'>Home</Link>
             <Link className='link1' to='/Publication'>Publication</Link>
             <Link className='link1' to='/People'>People</Link>
+            <Link className='link1' to='/Projects'>Projects</Link>
             <Link className='link1' to='/News'>News</Link>
             <Link className='link1' to='/Contact'>Contact</Link>
           </Anchor>
@@ -53,6 +54,7 @@ function AppHeader() {
               <p><Link className='link1' to='/'>Home</Link></p>
               <p><Link className='link1' to='/Publication'>Publication</Link></p>
               <p><Link className='link1' to='/People'>People</Link></p>
+              <p><Link className='link1' to='/Projects'>Projects</Link></p>
               <p><Link className='link1' to='/News'>News</Link></p>
               <p><Link className='link1' to='/Contact'>Contact</Link></p>
             </Anchor>

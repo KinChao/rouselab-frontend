@@ -66,9 +66,9 @@ const App = () => (
 
 
       <div className='center'>
-      <Row gutter={[120, 30]}>
-          <Col xs={{ span: 0 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
-          <Col xs={{ span: 24 }} sm={{ span: 10 }} md={{ span: 10 }}>
+      <Row>
+          <Col xs={{ span: 0 }} sm={{ span: 2 }} md={{ span: 3 }}></Col>
+          <Col xs={{ span: 24 }} sm={{ span: 10 }} md={{ span: 8 }}>
             
           <div style={{fontSize: '20px',textAlign: 'center'}}>
              Molecular Simulations
@@ -83,7 +83,8 @@ const App = () => (
             >
             </Card>
           </Col>
-          <Col xs={{ span: 24 }} sm={{ span: 10 }} md={{ span: 10 }}>
+          <Col xs={{ span: 0 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+          <Col xs={{ span: 24 }} sm={{ span: 10 }} md={{ span: 8 }}>
           <div style={{fontSize: '20px',textAlign: 'center'}}>
             Cryo-Electron Miscoscopy
           </div>
@@ -96,10 +97,11 @@ const App = () => (
               
             </Card>
           </Col>
-          <Col xs={{ span: 0 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+          <Col xs={{ span: 0 }} sm={{ span: 2 }} md={{ span: 3}}></Col>
 
-          <Col xs={{ span: 0 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
-          <Col xs={{ span: 24 }} sm={{ span: 10 }} md={{ span: 10 }}>
+
+          <Col xs={{ span: 0 }} sm={{ span: 2 }} md={{ span: 3 }}></Col>
+          <Col xs={{ span: 24 }} sm={{ span: 10 }} md={{ span: 8 }}>
             
           <div style={{fontSize: '20px',textAlign: 'center'}}>
             X-Ray Crystallography
@@ -114,7 +116,8 @@ const App = () => (
               
             </Card>
           </Col>
-          <Col xs={{ span: 24 }} sm={{ span: 10 }} md={{ span: 10 }}>
+          <Col xs={{ span: 0 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+          <Col xs={{ span: 24 }} sm={{ span: 10 }} md={{ span: 8 }}>
             
           <div style={{fontSize: '20px',textAlign: 'center'}}>
             Next Generation Sequencing
@@ -128,7 +131,7 @@ const App = () => (
               
             </Card>
           </Col>
-          <Col xs={{ span: 0 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+          <Col xs={{ span: 0 }} sm={{ span: 2 }} md={{ span: 3 }}></Col>
 
         </Row>
         </div>

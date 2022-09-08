@@ -10,6 +10,7 @@ import PublicationPage from './components/Publication'
 import ContactPage from './components/Contact'
 import AdminPage from './components/admin'
 import Admin2Page from './components/News/admin2'
+import ProjectPage from './components/Projects'
 import { WorkoutsContextProvider } from './context/WorkoutsContext'
 import { WorkoutsContextProvider2 } from './context/WorkoutsContext2'
 
@@ -21,6 +22,7 @@ const Router = () => {
       <Route path="/login" element={<LoginPage />} />
       <Route path="/signup" element={<SignupPage />} />
       <Route path="/Home" element={<HomePage />} />
+      <Route path="/Projects" element={<ProjectPage />} />
       <Route path="/News" element={
       <WorkoutsContextProvider2>
         <NewsPage />
