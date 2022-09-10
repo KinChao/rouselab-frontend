@@ -52,7 +52,7 @@ const ProjectPage = () => {
       <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
       <Col xs={{ span: 22 }} sm={{ span: 20 }} md={{ span: 20 }}>
       <p style={{color:'#fff'}}>1</p>
-      <div style={{fontSize: '18px',textAlign: 'left'}}>Adenoviruses (AdV) are a major viral vector platform. Most popularly they have been used in Oxford AstraZeneca’s vaccine against COVID-19, Vaxzevria. AdVs are non-enveloped DNA viruses with icosahedral symmetry. With 252 capsomere units, the outer shell is primarily composed of 3 subunits termed hexons, pentons and fiber protein. The efficiency of the virus is directly linked to the ability of the virus to infect host cells. </div>
+      <div style={{fontSize: '18px',textAlign: 'left'}}>Adenoviruses (AdV) are a major viral vector platform. Most popularly, chimpanzee adenovirus has been used in Oxford AstraZeneca’s vaccine against COVID-19, Vaxzevria. AdVs are non-enveloped DNA viruses with icosahedral symmetry. With 252 capsomere units, the outer shell is primarily composed of 3 subunits termed hexons, pentons and fiber proteins. The efficiency of the virus is measured by its ability to infect host cells.</div>
       </Col>
       <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
 
@@ -73,7 +73,7 @@ const ProjectPage = () => {
 
       <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
       <Col xs={{ span: 22 }} sm={{ span: 20 }} md={{ span: 20 }}>
-      <div style={{fontSize: '18px',textAlign: 'left'}}>It has been empirically observed that the quality of the virion derived from large manufacturing units is poorer when compared to their laboratory counterparts.  Notably, several nonstructural and structural proteins are present as incomplete assemblies, oligomers, and monomers. We believe that the differences between quality of manufacturing and laboratory grade viruses stem from the choice of downstream purification method. While laboratories use two cycle CsCl density gradient ultracentrifugation the industry utilizes anion exchange based (AEX) techniques. We validated the decline in particle quality before and after lab based AEX method.</div>
+      <div style={{fontSize: '18px',textAlign: 'left'}}>It has been empirically observed that the quality of the virion derived from large manufacturing units is poorer when compared to their laboratory counterparts. Notably, several nonstructural and structural proteins are present as incomplete assemblies, oligomers, and monomers. We believe that the differences between quality of manufacturing and laboratory grade viruses stem from the choice of downstream purification method. While laboratories use two cycle CsCl density gradient ultracentrifugation for small scale preparation, industry utilizes anion exchange based (AEX) techniques to scale up production. We validated the decline in particle quality before and after lab based AEX method.</div>
       </Col>
       <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
 
@@ -104,7 +104,7 @@ const ProjectPage = () => {
 
       <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
       <Col xs={{ span: 22 }} sm={{ span: 20 }} md={{ span: 20 }}>
-      <div style={{fontSize: '18px',textAlign: 'left'}}>Subsequently, we compare it with density gradient purified particles. The AEX sample showed characteristic morphology, riddled with incomplete and broken capsids, particle clumping and a large background of protein impurities. Interestingly, we observed a unique thread-like background particle to be abundant in AEX purified samples. We reconstructed this using automated picking from over 100 cryoEM micrographs to derive a 30 Å structure. While the resolution was too low to conclusively identify the nature of the particle, the signal density displayed a high degree of overlap with the crystal structure of viral fiber protein. This might suggest shedding of fiber protein during the purification process. The infectivity of the virus is strongly associated with the fiber protein and could possibly be the reason behind decline in particle quality. That said, this lead is being pursued with more data.</div>
+      <div style={{fontSize: '18px',textAlign: 'left'}}>Subsequently, we compare it with density gradient purified particles. The AEX sample showed characteristic morphology, riddled with incomplete and broken capsids, particle clumping and a large background of protein impurities. Interestingly, we observed a unique thread-like background particle to be abundant in AEX purified samples. We reconstructed this using automated picking from cryoEM micrographs to derive a low resolution structure. While the resolution was too low to conclusively identify the nature of the particle, the signal density displayed a high degree of overlap with the crystal structure of viral fiber protein. This might suggest shedding of fiber protein during the purification process. The infectivity of the virus is strongly associated with the fiber protein and could possibly be the reason behind decline in particle quality. That said, this lead is being pursued with more data.</div>
       </Col>
       <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2}}></Col>
 
@@ -115,7 +115,7 @@ const ProjectPage = () => {
       <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
       <Col xs={{ span: 22 }} sm={{ span: 20 }} md={{ span: 20 }}>
       <p style={{color:'#fff'}}>1</p>
-      <div style={{fontSize: '18px',textAlign: 'left'}}>Our research will assist instrumentation designers in developing more robust manufacturing pipelines and equipment. </div>
+      <div style={{fontSize: '18px',textAlign: 'left'}}>Our research will assist instrumentation designers in developing more robust manufacturing pipelines and equipment.</div>
       <p style={{color:'#fff'}}>1</p>
       </Col>
       <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
