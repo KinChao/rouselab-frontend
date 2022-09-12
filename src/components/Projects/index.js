@@ -5,7 +5,6 @@ import AppHeader from '../Common/header'
 import { Helmet } from 'react-helmet';
 import ayush1 from './images/ayush1.jpg'
 import ayush2 from './images/ayush2.jpg'
-import ayush3 from './images/ayush3.jpg'
 
 
 
@@ -53,26 +52,20 @@ const ProjectPage = () => {
       <Col xs={{ span: 22 }} sm={{ span: 20 }} md={{ span: 20 }}>
       <p style={{color:'#fff'}}>1</p>
       <div style={{fontSize: '18px',textAlign: 'left'}}>Adenoviruses (AdV) are a major viral vector platform. Most popularly, chimpanzee adenovirus has been used in Oxford AstraZeneca’s vaccine against COVID-19, Vaxzevria. AdVs are non-enveloped DNA viruses with icosahedral symmetry. With 252 capsomere units, the outer shell is primarily composed of 3 subunits termed hexons, pentons and fiber proteins. The efficiency of the virus is measured by its ability to infect host cells.</div>
+      
+      <p style={{color:'#fff'}}>1</p>
+      
       </Col>
       <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
 
 
-      <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span:9 }}></Col>
-      <Col xs={{ span: 22 }} sm={{ span: 5 }} md={{ span: 6 }}>
-        <div >
-          <img alt=""
-          src={ayush1}/>
-        </div>
-        <div style={{fontSize: '12px',textAlign: 'center'}}>Fig1 : Adenovirus and the fiber protein</div>
-        <p style={{color:'#fff'}}>1</p>
-      </Col>
-      <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span: 9 }}></Col>
 
       
 
 
       <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
       <Col xs={{ span: 22 }} sm={{ span: 20 }} md={{ span: 20 }}>
+        
       <div style={{fontSize: '18px',textAlign: 'left'}}>It has been empirically observed that the quality of the virion derived from large manufacturing units is poorer when compared to their laboratory counterparts. Notably, several nonstructural and structural proteins are present as incomplete assemblies, oligomers, and monomers. We believe that the differences between quality of manufacturing and laboratory grade viruses stem from the choice of downstream purification method. While laboratories use two cycle CsCl density gradient ultracentrifugation for small scale preparation, industry utilizes anion exchange based (AEX) techniques to scale up production. We validated the decline in particle quality before and after lab based AEX method.</div>
       </Col>
       <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
@@ -80,20 +73,21 @@ const ProjectPage = () => {
 
       <Col xs={{ span: 0 }} sm={{ span: 5 }} md={{ span: 2}}></Col>
       <Col xs={{ span: 24 }} sm={{ span: 10 }} md={{ span: 10 }}>
+      <p style={{color:'#fff'}}>1</p>
         <div>
           <img alt=""
-          src={ayush2}/>
+          src={ayush1}/>
         </div>
-        <div style={{fontSize: '12px',textAlign: 'center'}}>Fig2: Decline in quality of particle after purification using Anion exchange chromatography</div>
+        <div style={{fontSize: '12px',textAlign: 'center'}}>Fig1 : Adenovirus and the fiber protein</div>
         <p style={{color:'#fff'}}>1</p>
         <p style={{color:'#fff'}}>1</p>
       </Col>
       <Col xs={{ span: 24 }} sm={{ span: 10 }} md={{ span: 10 }}>
         <div>
           <img alt=""
-          src={ayush3}/>
+          src={ayush2}/>
         </div>
-        <div style={{fontSize: '12px',textAlign: 'center'}}>Fig3: Decline in quality of particle after purification using Anion exchange chromatography</div>
+        <div style={{fontSize: '12px',textAlign: 'center'}}>Fig2: Decline in quality of particle after purification using Anion exchange chromatography</div>
         <p style={{color:'#fff'}}>1</p>
         <p style={{color:'#fff'}}>1</p>
       </Col>
