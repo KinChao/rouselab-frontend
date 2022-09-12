@@ -71,8 +71,8 @@ const ProjectPage = () => {
       <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
 
 
-      <Col xs={{ span: 0 }} sm={{ span: 5 }} md={{ span: 2}}></Col>
-      <Col xs={{ span: 24 }} sm={{ span: 10 }} md={{ span: 10 }}>
+      <Col xs={{ span: 0 }} sm={{ span: 3 }} md={{ span: 3}}></Col>
+      <Col xs={{ span: 24 }} sm={{ span: 8 }} md={{ span: 8 }}>
       <p style={{color:'#fff'}}>1</p>
         <div>
           <img alt=""
@@ -82,6 +82,7 @@ const ProjectPage = () => {
         <p style={{color:'#fff'}}>1</p>
         <p style={{color:'#fff'}}>1</p>
       </Col>
+
       <Col xs={{ span: 24 }} sm={{ span: 10 }} md={{ span: 10 }}>
         <div>
           <img alt=""
@@ -91,7 +92,7 @@ const ProjectPage = () => {
         <p style={{color:'#fff'}}>1</p>
         <p style={{color:'#fff'}}>1</p>
       </Col>
-      <Col xs={{ span: 0 }} sm={{ span: 2 }} md={{ span: 2}}></Col>
+      <Col xs={{ span: 0 }} sm={{ span: 3 }} md={{ span: 3}}></Col>
 
       
 
