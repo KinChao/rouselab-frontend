@@ -8,3 +8,6 @@ Self-motivated project - Written in JavaScript using React with AntDesign CSS; i
 
 ##
 Current frontend deploy (with Netlify): https://idyllic-belekoy-f5ddfa.netlify.app/
+
+Backend (server) is deployed using Heroku <br />
+Database used: MongoDB
