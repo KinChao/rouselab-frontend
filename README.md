@@ -11,3 +11,5 @@ Current frontend deploy (with Netlify): https://idyllic-belekoy-f5ddfa.netlify.a
 
 Backend (server) is deployed using Heroku <br />
 Database used: MongoDB
+
+Reported issue: Slow loading in the People Pages - this is caused by the Heroku server falling asleep when there's no traffic for 30 mins. We will upgrade the Heroku plan later to resolve this issue.
