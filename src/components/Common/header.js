@@ -25,7 +25,7 @@ function AppHeader() {
         <div>
           
         <div className="titleHolder2">
-          <h2 style={{fontSize:'28px'}}><Link to='/' style={{textDecoration: 'none', color: 'inherit'}}>RouseLab</Link></h2>
+          <h2 style={{fontSize:'28px'}}><Link to='/' style={{textDecoration: 'none', color: 'inherit'}}>Rouse Lab</Link></h2>
         </div>
 
 
@@ -33,7 +33,7 @@ function AppHeader() {
         <div className="mobileHidden">
           <Anchor targetOffset="65" affix={false}>
             <Link className='link1' to='/'>Home</Link>
-            <Link className='link1' to='/Publication'>Publication</Link>
+            <Link className='link1' to='/Publication'>Publications</Link>
             <Link className='link1' to='/People'>People</Link>
             <Link className='link1' to='/Projects'>Projects</Link>
             <Link className='link1' to='/News'>News</Link>
