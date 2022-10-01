@@ -8,6 +8,7 @@ const { Text,Title, Link  } = Typography;
 
 const WorkoutDetails2 = ({ people }) => {
   
+  
 
   
 
@@ -55,7 +56,8 @@ const WorkoutDetails2 = ({ people }) => {
 
       <div style={{fontSize: '16px',textAlign: 'left'}}>Email me:  
       <Text>  </Text>
-      <Text underline><Link href="mailto:s.rouse@imperial.ac.uk">{people.email}</Link></Text>
+      
+      <Text underline><Link href={'mailto:' + people.email}>{people.email}</Link></Text>
       </div>
       </Col>
       <Col xs={{ span: 0 }} sm={{ span: 0 }} md={{ span: 0 }}></Col>

@@ -52,10 +52,10 @@ const WorkoutDetails = ({ people }) => {
       </div>
 
       <p style={{color:'#FFF'}}>1</p>
-
+     
       <div style={{fontSize: '16px',textAlign: 'left'}}>Email me:  
       <Text>  </Text>
-      <Text underline><Link href="mailto:s.rouse@imperial.ac.uk">{people.email}</Link></Text>
+      <Text underline><Link href={'mailto:' + people.email}>{people.email}</Link></Text>
       </div>
       </Col>
       <Col xs={{ span: 0 }} sm={{ span: 0 }} md={{ span: 0 }}></Col>
