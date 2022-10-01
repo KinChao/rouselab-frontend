@@ -36,6 +36,7 @@ function AppHeader() {
             <Link className='link1' to='/Publication'>Publications</Link>
             <Link className='link1' to='/People'>People</Link>
             <Link className='link1' to='/Projects'>Projects</Link>
+            <Link className='link1' to='/Gallery'>Gallery</Link>
             <Link className='link1' to='/News'>News</Link>
             <Link className='link1' to='/Contact'>Contact</Link>
           </Anchor>
