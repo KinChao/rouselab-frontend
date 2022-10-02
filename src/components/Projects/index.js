@@ -44,7 +44,7 @@ const ProjectPage = () => {
     <Row>
       <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span: 2 }}></Col>
       <Col xs={{ span: 22 }} sm={{ span: 5 }} md={{ span: 20 }}>
-      <div style={{ fontSize: '25px', textAlign: 'center' }}>Using Cryo-EM to improve Adenovirus manufacturing - Auysh</div>
+      <div style={{ fontSize: '25px', textAlign: 'center' }}>Using Cryo-EM to improve Adenovirus manufacturing - Ayush</div>
       </Col>
       <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span: 2 }}></Col>
 
