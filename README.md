@@ -2,6 +2,8 @@
 Self-motivated project - Written in JavaScript using React with AntDesign CSS; infrasturture is set up mostly following this youtube tutorial https://youtu.be/98BzS5Oz5E4; 
 
 ## Updates
+**v3 update 06/10/2022 - introduced a responsive breakpoints system (greater mobile compatibility), improved infrastructure**
+
 **v2.2 update 01/10/2022 - added a new Gallery page, minor bug fixes**
 
 **v2.1 update 08/09/2022 - added a new Projects page**
