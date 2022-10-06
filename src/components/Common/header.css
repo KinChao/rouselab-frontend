@@ -46,6 +46,14 @@ title holder
   text-align: left;
   position: relative;
   margin-top: -3px ;
+  margin-left: 10px
+}
+
+.titleHolder3 {
+  text-align: left;
+  position: relative;
+  margin-top: -3px ;
+  margin-left: -30px
 }
 
 
@@ -362,6 +370,7 @@ footer
 
 .mobileVisible {
   display: none;
+  
 }
 
 .mobileHidden {
@@ -378,7 +387,7 @@ responsive
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 990px) {
   .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
     transform: scale(1);
   }

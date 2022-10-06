@@ -6,7 +6,7 @@ import './news.css'
 
 const { Title  } = Typography;
 
-const WorkoutDetails = ({ news }) => {
+const WorkoutDetailsm = ({ news }) => {
   
 
   
@@ -31,10 +31,10 @@ const WorkoutDetails = ({ news }) => {
       <Col xs={{ span: 12 }} sm={{ span: 0 }} md={{ span: 0 }}></Col>
 
       <Col xs={{ span: 24 }} sm={{ span: 22 }} md={{ span: 22 }}>
-      <Title level={3}><div style={{textAlign: 'left'}} className='left555'>{news.title}</div></Title>
+      <Title level={5}><div style={{textAlign: 'left'}} className='left555'>{news.title}</div></Title>
 
       
-      <div style={{fontSize: '16px',textAlign: 'left'}} className='left555'>
+      <div style={{fontSize: '13px',textAlign: 'left'}} className='left555'>
       {news.description}
       </div>
 
@@ -46,4 +46,4 @@ const WorkoutDetails = ({ news }) => {
   )
 }
 
-export default WorkoutDetails
+export default WorkoutDetailsm

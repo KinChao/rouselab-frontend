@@ -6,7 +6,7 @@ import './people.css'
 
 const { Text,Title, Link  } = Typography;
 
-const WorkoutDetails = ({ people }) => {
+const WorkoutDetails_m = ({ people }) => {
   
 
   
@@ -15,7 +15,7 @@ const WorkoutDetails = ({ people }) => {
   if (people.identifier ==="1"){
   return ( 
     
-    <div className="workout-details2">
+    <div className="workout-details3">
     
     <Row>
 
@@ -33,27 +33,27 @@ const WorkoutDetails = ({ people }) => {
         
       </Col>
       <Col xs={{ span: 24 }} sm={{ span: 18 }} md={{ span: 18 }}>
-      <Title level={3}><div style={{textAlign: 'left'}}>{people.name}</div></Title>
+      <Title level={4}><div style={{textAlign: 'left'}}>{people.name}</div></Title>
       
       
-      <div style={{fontSize: '16px',textAlign: 'left', marginBottom:'20px', marginTop:'20px'}}>
+      <div style={{fontSize: '14px',textAlign: 'left', marginBottom:'10px'}}>
       {people.role}
       </div>
       
 
-      <div style={{fontSize: '16px',textAlign: 'left', marginBottom:'20px'}}>
+      <div style={{fontSize: '14px',textAlign: 'left', marginBottom:'10px'}}>
       {people.affiliation}
       </div>
 
       
 
-      <div style={{fontSize: '16px',textAlign: 'left', marginBottom:'20px'}}>
+      <div style={{fontSize: '14px',textAlign: 'left', marginBottom:'10px'}}>
       {people.description}
       </div>
 
       
      
-      <div style={{fontSize: '16px',textAlign: 'left'}}>Email me:  
+      <div style={{fontSize: '14px',textAlign: 'left'}}>Email me:  
       <Text>  </Text>
       <Text underline><Link href={'mailto:' + people.email}>{people.email}</Link></Text>
       </div>
@@ -64,4 +64,4 @@ const WorkoutDetails = ({ people }) => {
   )}
 }
 
-export default WorkoutDetails
+export default WorkoutDetails_m

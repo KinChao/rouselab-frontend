@@ -1,8 +1,9 @@
-.workout-details3 {
+.workout-details33 {
   background: #fff;
   border-radius: 4px;
-  margin: 20px auto;
-
+  margin-bottom: 20px;
+  margin-top: 20px;
+  
   position: relative;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
 }
@@ -24,6 +25,13 @@ box {
   margin-left: 1%;
   margin-right: 5%;
   margin-top: 0.5%
+}
+
+.left555 {
+  margin-left: 2%;
+  margin-right: 1%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%
 }
 
 

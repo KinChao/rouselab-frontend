@@ -55,3 +55,16 @@
   position: relative;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
 }
+
+.workout-details5 {
+  background: #fff;
+  border-radius: 4px;
+  
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}

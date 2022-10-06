@@ -30,28 +30,28 @@ const WorkoutDetails3 = ({ people }) => {
       </div>
       </Col>
       <Col xs={{ span: 24 }} sm={{ span: 1 }} md={{ span: 1 }}>
-        <p style={{color:'#FFF'}}>1</p>
+
       </Col>
       <Col xs={{ span: 24 }} sm={{ span: 18 }} md={{ span: 18 }}>
       <Title level={3}><div style={{textAlign: 'left'}}>{people.name}</div></Title>
       
       
-      <div style={{fontSize: '16px',textAlign: 'left'}}>
+      <div style={{fontSize: '16px',textAlign: 'left', marginBottom:'15px'}}>
       {people.role}
       </div>
-      <p style={{color:'#FFF'}}>1</p>
 
-      <div style={{fontSize: '16px',textAlign: 'left'}}>
+
+      <div style={{fontSize: '16px',textAlign: 'left', marginBottom:'15px'}}>
       {people.affiliation}
       </div>
 
-      <p style={{color:'#FFF'}}>1</p>
 
-      <div style={{fontSize: '16px',textAlign: 'left'}}>
+
+      <div style={{fontSize: '16px',textAlign: 'left', marginBottom:'15px'}}>
       {people.description}
       </div>
 
-      <p style={{color:'#FFF'}}>1</p>
+
 
       <div style={{fontSize: '16px',textAlign: 'left'}}>Email me:  
       <Text>  </Text>

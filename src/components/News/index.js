@@ -1,72 +1,33 @@
-import { useEffect } from "react"
-import { useWorkoutsContext } from "../../hooks/useWorkoutsContext2"
 import React from 'react'
-import {  Layout  } from 'antd'
 import './news.css'
-import WorkoutDetails from "./WorkoutDetails"
-import AppHeader from "../Common/header"
-import { Helmet } from 'react-helmet';
+import { layoutGenerator } from 'react-break';
+import NewsPage0 from "./mobile";
+import NewsPage1 from "./pc"
 
-// components
+const layout = layoutGenerator({
+  mobile: 0,
+  phablet: 989,
+  tablet: 990,
+  desktop: 992,
+});
+
+const OnAtLeastTablet = layout.isAtLeast('tablet');
+const OnAtMostPhablet = layout.isAtMost('phablet');
+
+const NewsPage = () => (
+  <div>
+  
+    <OnAtMostPhablet>
+      <NewsPage0/>
+    </OnAtMostPhablet>
+
+    <OnAtLeastTablet>
+      <NewsPage1/>
+    </OnAtLeastTablet>
 
 
 
-const NewsPage = () => {
-
-  const { newss, dispatch } = useWorkoutsContext()
-
-  const { Header, Content, Footer } = Layout;
-
-
-  useEffect(() => {
-    const fetchWorkouts = async () => {
-      const response = await fetch('https://rouselab.herokuapp.com/api/newss/')
-      const json = await response.json()
-
-      if (response.ok) {
-        dispatch({type: 'SET_WORKOUTS', payload: json})
-      }
-    }
-
-    fetchWorkouts()
-  }, [dispatch])
-
-  return (
-    
-    <Layout>
-      <Helmet>
-        <title>News | RouseLab</title>
-    </Helmet>
-    <div>
-      <Header style={{background: '#bfbfbf'}}>
-        <AppHeader />
-      </Header>
-    </div>
-    <Content>
-
-    <p style={{color:'#f0f2f5'}}>1</p>
-
-    <div className="left6">
-      <div >
-        {newss && newss.map(news => (
-          <WorkoutDetails news={news} key={news._id} />
-        ))}
-      </div>
-      
-    </div>
-    </Content>
-
-    <Footer
-      style={{
-        textAlign: 'center',
-      }}
-    >
-      ©2022 ROUSELAB
-    </Footer>
-  </Layout>
-
-    
-  )
-}
+  </div>
+);
 
 export default NewsPage
