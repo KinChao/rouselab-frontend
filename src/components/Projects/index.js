@@ -1,10 +1,5 @@
 import React from 'react'
-import { Typography, Col, Row, Layout } from 'antd'
 import './project.css'
-import AppHeader from '../Common/header'
-import { Helmet } from 'react-helmet';
-import ayush1 from './images/ayush1.jpg'
-import ayush2 from './images/ayush2.jpg'
 import { layoutGenerator } from 'react-break';
 import ProjectPage0 from './mobile';
 import ProjectPage1 from './pc';

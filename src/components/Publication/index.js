@@ -1,8 +1,5 @@
 import React from 'react'
-import { Typography, Layout, Row, Col  } from 'antd'
 import './App.css'
-import AppHeader from '../Common/header'
-import { Helmet } from 'react-helmet';
 import PublicationPage0 from './mobile';
 import PublicationPage1 from './pc';
 import { layoutGenerator } from 'react-break';

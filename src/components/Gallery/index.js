@@ -1,9 +1,5 @@
 import React from 'react'
-import {  Col, Row, Layout } from 'antd'
 import './gallery.css'
-import AppHeader from '../Common/header'
-import { Helmet } from 'react-helmet';
-import pic1 from './images/gallery_pic1.png'
 import GalleryPage0 from './mobile';
 import GalleryPage1 from './pc';
 import { layoutGenerator } from 'react-break';

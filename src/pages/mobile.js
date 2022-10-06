@@ -4,7 +4,7 @@ import AppHeader2 from '../components/Common/header2'
 import './people.css'
 
 // pages & components
-import Home_m from '../components/People/Home_m'
+import Homem from '../components/People/Homem'
 import { Helmet } from 'react-helmet';
 
 
@@ -33,7 +33,7 @@ function PeoplePage0() {
 
 
     
-    <div className='left5'><Home_m /></div>
+    <div className='left5'><Homem /></div>
     
     </Content>
 
