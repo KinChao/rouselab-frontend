@@ -1,5 +1,4 @@
 
-import { Layout  } from 'antd'
 import './people.css'
 import PeoplePage0 from './mobile';
 import PeoplePage1 from './pc';
