@@ -9,9 +9,9 @@ import { layoutGenerator } from 'react-break';
 
 const layout = layoutGenerator({
   mobile: 0,
-  phablet: 989,
-  tablet: 990,
-  desktop: 992,
+  phablet: 1014,
+  tablet: 1015,
+  desktop: 1016,
 });
 
 //const OnMobile = layout.is('mobile');

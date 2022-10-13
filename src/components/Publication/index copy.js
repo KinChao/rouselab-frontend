@@ -1,5 +1,8 @@
 import React from 'react'
+import { Typography, Layout, Row, Col  } from 'antd'
 import './App.css'
+import AppHeader from '../Common/header'
+import { Helmet } from 'react-helmet';
 import PublicationPage0 from './mobile';
 import PublicationPage1 from './pc';
 import { layoutGenerator } from 'react-break';
@@ -7,26 +10,36 @@ import { layoutGenerator } from 'react-break';
 
 const layout = layoutGenerator({
   mobile: 0,
-  phablet: 1014,
-  tablet: 1015,
-  desktop: 1016,
+  phablet: 550,
+  tablet: 768,
+  desktop: 992,
 });
 
-//const OnMobile = layout.is('mobile');
+const OnMobile = layout.is('mobile');
 const OnAtLeastTablet = layout.isAtLeast('tablet');
 const OnAtMostPhablet = layout.isAtMost('phablet');
-//const OnDesktop = layout.is('desktop');
+const OnDesktop = layout.is('desktop');
 
 const PublicationPage = () => (
   <div>
-  
-    <OnAtMostPhablet>
+    <OnMobile>
       <PublicationPage0/>
-    </OnAtMostPhablet>
-
+    </OnMobile>
+    
     <OnAtLeastTablet>
       <PublicationPage1/>
     </OnAtLeastTablet>
+
+    <OnAtMostPhablet>
+      <PublicationPage1/>
+    </OnAtMostPhablet>
+
+
+
+    <OnDesktop>
+      <PublicationPage1/>
+    </OnDesktop>
+
 
   </div>
 );

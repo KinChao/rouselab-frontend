@@ -5,7 +5,7 @@ import AppHeader from '../Common/header'
 import { Helmet } from 'react-helmet';
 import ayush1 from './images/ayush1.jpg'
 import ayush2 from './images/ayush2.jpg'
-
+import Banner from '../Common/banner';
 
 
 const {  Text} = Typography;
@@ -28,6 +28,7 @@ const ProjectPage1 = () => {
 
     
     <Content>
+    <Banner/>
     <Row>
       <Col xs={{ span: 2 }} sm={{ span: 3 }} md={{ span: 3 }}></Col>
       <Col xs={{ span: 20 }} sm={{ span: 18 }} md={{ span: 18 }}>

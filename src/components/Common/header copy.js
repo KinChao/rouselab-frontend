@@ -2,10 +2,8 @@ import React, { useState } from 'react';
 import { Anchor, Drawer, Button} from 'antd';
 import './header.css'
 import { Link } from 'react-router-dom'
-import protein from './t2_2.png'
-import protein2 from './t1_2.png'
+import protein from './protein1.png'
 import {   Row } from 'antd'
-import logo from './logo1.png'
 
 
 function AppHeader() {
@@ -27,17 +25,10 @@ function AppHeader() {
         <Row>
         
         <div className="titleHolder20">
-          <Link to='/' style={{textDecoration: 'none', color: 'inherit'}}>
-            <img alt=""
-            style={{width: 140, marginTop: '12px'}}
-            src={logo}/>
-          </Link>
+          <h2 style={{fontSize:'28px'}}><Link to='/' style={{textDecoration: 'none', color: 'inherit'}}>Rouse Lab </Link></h2>
         </div>
-        <div style={{marginLeft:'5px', marginTop:'9px'}}>
-        <img alt="" src={protein2} style={{width:'50px'}}/>
-        </div>
-        <div style={{marginLeft:'-6px', marginTop:'8px'}}>
-        <img alt="" src={protein} style={{width:'55px'}}/>
+        <div style={{marginLeft:'10px', marginTop:'5px'}}>
+        <img alt="" src={protein} style={{width:'50px', height:'50px'}}/>
         </div>
         </Row>
 

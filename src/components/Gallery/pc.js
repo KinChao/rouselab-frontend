@@ -4,7 +4,7 @@ import './gallery.css'
 import AppHeader from '../Common/header'
 import { Helmet } from 'react-helmet';
 import pic1 from './images/gallery_pic1.png'
-
+import Banner from '../Common/banner';
 
 
 
@@ -27,7 +27,7 @@ const GalleryPage1 = () => {
 
     
     <Content>
-
+    <Banner/>
     <Row>
 
 

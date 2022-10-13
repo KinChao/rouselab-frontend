@@ -6,6 +6,7 @@ import image2 from './images/p22.png'
 import image3 from './images/p3.jpg'
 import AppHeader from '../Common/header'
 import { Helmet } from 'react-helmet';
+import Banner from '../Common/banner'
 
 const { Title, Text} = Typography;
 const { Header, Content, Footer } = Layout;
@@ -26,7 +27,7 @@ const ContactPage1 = () => {
     </div>
 
     <Content className="site-layout">
-    
+    <Banner/>
 
     <Row>
       <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span: 5 }}></Col>

@@ -6,9 +6,9 @@ import ProjectPage1 from './pc';
 
 const layout = layoutGenerator({
   mobile: 0,
-  phablet: 550,
-  tablet: 990,
-  desktop: 992,
+  phablet: 1014,
+  tablet: 1015,
+  desktop: 1016,
 });
 
 const OnMobile = layout.is('mobile');

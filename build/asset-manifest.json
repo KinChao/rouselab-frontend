@@ -1,22 +1,25 @@
 {
   "files": {
     "main.css": "./static/css/main.a0e28c76.css",
-    "main.js": "./static/js/main.a5f75c27.js",
+    "main.js": "./static/js/main.81877929.js",
     "static/media/p41.jpg": "./static/media/p41.21fd6a5db4f881272084.jpg",
     "static/media/p3.jpg": "./static/media/p3.8f8719a9c7542177873a.jpg",
+    "static/media/t2_2.png": "./static/media/t2_2.8852267b634fd6214233.png",
     "static/media/p2.jpg": "./static/media/p2.35f361d605a656fc889f.jpg",
     "static/media/gallery_pic1.png": "./static/media/gallery_pic1.b6c8d2d31841a61dc8b8.png",
+    "static/media/t1_2.png": "./static/media/t1_2.5113c2cdd2d88eb28c39.png",
+    "static/media/banner6.png": "./static/media/banner6.dab6cb0d1cdc44563efb.png",
     "static/media/p1.png": "./static/media/p1.8b1f6eb9b5579a8420c5.png",
-    "static/media/protein1.png": "./static/media/protein1.a4d2a63ccd4eb04e3455.png",
+    "static/media/logo1.png": "./static/media/logo1.4b564a7ab354f2d9805f.png",
     "static/media/ayush2.jpg": "./static/media/ayush2.b340092a2acdf8c429d1.jpg",
     "static/media/ayush1.jpg": "./static/media/ayush1.4755da38ef9e34634645.jpg",
     "static/media/p22.png": "./static/media/p22.b25766cc249a5ceddcfa.png",
     "index.html": "./index.html",
     "main.a0e28c76.css.map": "./static/css/main.a0e28c76.css.map",
-    "main.a5f75c27.js.map": "./static/js/main.a5f75c27.js.map"
+    "main.81877929.js.map": "./static/js/main.81877929.js.map"
   },
   "entrypoints": [
     "static/css/main.a0e28c76.css",
-    "static/js/main.a5f75c27.js"
+    "static/js/main.81877929.js"
   ]
 }

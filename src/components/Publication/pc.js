@@ -3,6 +3,7 @@ import { Typography, Layout, Row, Col  } from 'antd'
 import './App.css'
 import AppHeader from '../Common/header'
 import { Helmet } from 'react-helmet';
+import Banner from '../Common/banner';
 
 const { Text } = Typography;
 
@@ -22,7 +23,7 @@ const PublicationPage1 = () => {
       </Header>
     </div>
     <Content>
-
+    <Banner/>
 
 
 
