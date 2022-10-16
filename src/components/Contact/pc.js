@@ -32,7 +32,7 @@ const ContactPage1 = () => {
     <Row>
       <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span: 5 }}></Col>
       <Col xs={{ span: 22 }} sm={{ span: 14 }} md={{ span: 14 }}>
-      <div style={{ fontSize: '20px', marginTop:'60px', marginBottom:'60px'}}>If you’d like to know more about the research or are thinking of joining us, feel free to contact us. Informal discussions are very welcome. I’m always happy to discuss and support postdocs and students</div>
+      <div style={{ fontSize: '24px', marginTop:'60px', marginBottom:'60px'}}>If you’d like to know more about the research or are thinking of joining us, feel free to contact us. Informal discussions are very welcome. I’m always happy to discuss and support postdocs and students</div>
       </Col>
       <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span: 5 }}></Col>
 
@@ -44,7 +44,8 @@ const ContactPage1 = () => {
         <div>
           <img 
           alt =""
-          src={image3}/>
+          src={image3}
+          />
         </div>
       </Col>
       <Col xs={{ span: 7 }} sm={{ span: 0 }} md={{ span: 0 }}></Col>

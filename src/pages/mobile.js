@@ -6,7 +6,7 @@ import './people.css'
 // pages & components
 import Homem from '../components/People/Homem'
 import { Helmet } from 'react-helmet';
-
+import Banner from '../components/Common/bannerM';
 
 
 
@@ -30,7 +30,7 @@ function PeoplePage0() {
     </div>
 
     <Content className="site-layout">
-
+    <Banner/>
 
     
     <div className='left5'><Homem /></div>

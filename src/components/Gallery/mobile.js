@@ -4,8 +4,8 @@ import './gallery.css'
 import AppHeader2 from '../Common/header2'
 import { Helmet } from 'react-helmet';
 import pic1 from './images/gallery_pic1.png'
-
-
+import uniform from './uniform.png'
+import Banner from '../Common/bannerM';
 
 
 const { Header, Content, Footer } = Layout;
@@ -27,7 +27,7 @@ const GalleryPage0 = () => {
 
     
     <Content>
-
+      <Banner/>
     <Row>
 
 
@@ -57,6 +57,17 @@ const GalleryPage0 = () => {
       <Col xs={{ span: 1 }} sm={{ span: 1 }} md={{ span: 2 }}></Col>
 
 
+      <Col xs={{ span: 1 }} sm={{ span: 1 }} md={{ span: 1 }}></Col>
+      <Col xs={{ span: 15 }} sm={{ span: 22 }} md={{ span: 22 }}>
+        <div style={{ fontSize: '18px', textAlign: 'left', marginTop:'30px', marginBottom:'10px'}}>Lab uniform :)</div>
+        <div>
+          <img alt=""
+          style={{height: '100%'}}
+          src={uniform}/>
+        </div>
+        <div style={{ fontSize: '10px', textAlign: 'left', marginTop:'10px', marginBottom:'20px'}}>**All new member must buy this black jacket from Uniqlo in order to join the lab**</div>
+      </Col>
+      <Col xs={{ span: 8 }} sm={{ span: 1 }} md={{ span: 1 }}></Col>
     </Row>
     
 

@@ -8,6 +8,8 @@ import image3 from './images/p3.jpg'
 import image4 from './images/p41.jpg'
 import AppHeader2 from './components/Common/header2'
 import { Helmet } from 'react-helmet';
+import Banner from './components/Common/bannerM'
+
 const { Header, Content, Footer } = Layout;
 
 const HomePage1 = () => (
@@ -23,6 +25,7 @@ const HomePage1 = () => (
       </Header>
     </div>
     <Content>
+    <Banner/>
       <Row>
         <Col xs={{ span: 2 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
         <Col xs={{ span: 20 }} sm={{ span: 20 }} md={{ span: 20 }}>

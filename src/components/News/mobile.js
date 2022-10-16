@@ -6,7 +6,7 @@ import './news.css'
 import WorkoutDetailsm from "./WorkoutDetailsm"
 import AppHeader2 from "../Common/header2"
 import { Helmet } from 'react-helmet';
-
+import Banner from '../Common/bannerM';
 // components
 
 
@@ -43,6 +43,7 @@ const NewsPage0 = () => {
       </Header>
     </div>
     <Content>
+    <Banner/>
     
 
 
