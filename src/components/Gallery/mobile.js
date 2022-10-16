@@ -58,7 +58,7 @@ const GalleryPage0 = () => {
 
 
       <Col xs={{ span: 1 }} sm={{ span: 1 }} md={{ span: 1 }}></Col>
-      <Col xs={{ span: 15 }} sm={{ span: 22 }} md={{ span: 22 }}>
+      <Col xs={{ span: 15 }} sm={{ span: 15 }} md={{ span: 15 }}>
         <div style={{ fontSize: '18px', textAlign: 'left', marginTop:'30px', marginBottom:'10px'}}>Lab uniform :)</div>
         <div>
           <img alt=""
@@ -67,7 +67,7 @@ const GalleryPage0 = () => {
         </div>
         <div style={{ fontSize: '10px', textAlign: 'left', marginTop:'10px', marginBottom:'20px'}}>**All new member must buy this black jacket from Uniqlo in order to join the lab**</div>
       </Col>
-      <Col xs={{ span: 8 }} sm={{ span: 1 }} md={{ span: 1 }}></Col>
+      <Col xs={{ span: 8 }} sm={{ span: 8 }} md={{ span: 8 }}></Col>
     </Row>
     
 
