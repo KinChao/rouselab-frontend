@@ -49,7 +49,7 @@ const GalleryPage1 = () => {
           style={{height: '100%'}}
           src={uniform}/>
         </div>
-        <div style={{ fontSize: '11px', textAlign: 'left', marginTop:'10px', marginBottom:'40px'}}>**All new member must buy this black jacket from Uniqlo in order to join the lab**</div>
+        <div style={{ fontSize: '11px', textAlign: 'left', marginTop:'10px', marginBottom:'40px'}}>**All new member must grab this black jacket from Uniqlo in order to join the lab**</div>
       </Col>
       <Col xs={{ span: 1 }} sm={{ span: 1 }} md={{ span: 2 }}></Col>
 
