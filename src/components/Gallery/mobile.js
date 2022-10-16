@@ -62,7 +62,7 @@ const GalleryPage0 = () => {
         <div style={{ fontSize: '18px', textAlign: 'left', marginTop:'30px', marginBottom:'10px'}}>Lab uniform :)</div>
         <div>
           <img alt=""
-          style={{height: '100%'}}
+          style={{width: '100%'}}
           src={uniform}/>
         </div>
         <div style={{ fontSize: '10px', textAlign: 'left', marginTop:'10px', marginBottom:'20px'}}>**All new member must buy this black jacket from Uniqlo in order to join the lab**</div>
