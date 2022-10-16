@@ -2,7 +2,7 @@
 Self-motivated project - Written in JavaScript using React with AntDesign CSS; infrasturture is set up mostly following this youtube tutorial https://youtu.be/98BzS5Oz5E4; 
 
 ## Updates
-**v3.2 update 16/10/2022 - Adopted the banner & logo design in mobile ver **
+**v3.2 update 16/10/2022 - Adopted the banner & logo design in mobile ver**
 
 **v3.1 update 13/10/2022 - Added a new banner (pc ver only atm), new logo design**
 
