@@ -30,29 +30,29 @@ const ContactPage0 = () => {
       <Banner/>
 
     <Row>
-      <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span: 5 }}></Col>
-      <Col xs={{ span: 22 }} sm={{ span: 14 }} md={{ span: 14 }}>
+      <Col xs={{ span: 1 }} sm={{ span: 1 }} md={{ span: 1 }}></Col>
+      <Col xs={{ span: 22 }} sm={{ span: 22 }} md={{ span: 22 }}>
       <div style={{ fontSize: '16px', marginTop:'40px', marginBottom:'25px'}}>If you’d like to know more about the research or are thinking of joining us, feel free to contact us. Informal discussions are very welcome.</div>
       <div style={{ fontSize: '16px', marginTop:'20px', marginBottom:'40px'}}>I’m always happy to discuss and support postdocs and students</div>
       </Col>
-      <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span: 5 }}></Col>
+      <Col xs={{ span: 1 }} sm={{ span: 1 }} md={{ span: 1 }}></Col>
 
 
 
 
-      <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span: 5 }}></Col>
-      <Col xs={{ span: 19 }} sm={{ span: 5 }} md={{ span: 5 }}>
+      <Col xs={{ span: 1 }} sm={{ span: 1 }} md={{ span: 1 }}></Col>
+      <Col xs={{ span: 19 }} sm={{ span: 19 }} md={{ span: 19 }}>
         <div>
           <img 
           alt =""
           src={image3}/>
         </div>
       </Col>
-      <Col xs={{ span: 4 }} sm={{ span: 0 }} md={{ span: 0 }}></Col>
+      <Col xs={{ span: 4 }} sm={{ span: 4 }} md={{ span: 4 }}></Col>
 
       
-      <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span: 2 }}></Col>
-      <Col xs={{ span: 22 }} sm={{ span: 5 }} md={{ span: 7 }}>
+      <Col xs={{ span: 1 }} sm={{ span: 1 }} md={{ span: 1 }}></Col>
+      <Col xs={{ span: 22 }} sm={{ span: 22 }} md={{ span: 22 }}>
       <Title level={4}><div style={{textAlign: 'left', marginTop:'10px'}}>Dr Sarah Rouse</div></Title>
       <div style={{fontSize: '14px',textAlign: 'left', marginBottom:'10px'}}>Imperial College London</div>
 
@@ -64,15 +64,15 @@ const ContactPage0 = () => {
         <Text underline><a href="mailto:s.rouse@imperial.ac.uk">s.rouse@imperial.ac.uk</a></Text>
       </div>
       </Col>
-      <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span: 5 }}></Col>
+      <Col xs={{ span: 1 }} sm={{ span: 1 }} md={{ span: 1 }}></Col>
 
 
 
 
 
-      <Col xs={{ span: 0 }} sm={{ span: 5 }} md={{ span: 5 }}></Col>
-      <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span: 5 }}></Col>
-      <Col xs={{ span: 11 }} sm={{ span: 5 }} md={{ span: 4 }}>
+      <Col xs={{ span: 0 }} sm={{ span: 0 }} md={{ span: 0 }}></Col>
+      <Col xs={{ span: 1 }} sm={{ span: 1 }} md={{ span: 1 }}></Col>
+      <Col xs={{ span: 11 }} sm={{ span: 11 }} md={{ span: 11 }}>
 
 
 
@@ -82,7 +82,7 @@ const ContactPage0 = () => {
           src={image1}/>
         </div>
       </Col>
-      <Col xs={{ span: 11 }} sm={{ span: 5 }} md={{ span: 4 }}>
+      <Col xs={{ span: 11 }} sm={{ span: 11 }} md={{ span: 11 }}>
 
 
         <div className='img2' style={{marginTop:'32px', marginLeft:'40px'}}>
@@ -92,7 +92,7 @@ const ContactPage0 = () => {
               src={image2}/>
         </div>
       </Col>
-      <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span: 6 }}></Col>
+      <Col xs={{ span: 1 }} sm={{ span: 1 }} md={{ span: 1 }}></Col>
     </Row>
     
 
