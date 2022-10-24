@@ -1,10 +1,10 @@
 
-import { Layout } from 'antd'
+import { Layout  } from 'antd'
 import AppHeader from '../components/Common/header'
 import './people.css'
 
 // pages & components
-import Home from '../components/People/Home'
+import HomeMac from '../components/People/HomeMac'
 import { Helmet } from 'react-helmet';
 import Banner from '../components/Common/banner';
 
@@ -33,17 +33,18 @@ function PeoplePage1() {
     <Banner/>
 
     
-    <div className='left4'><Home /></div>
+    <div className='left4'><HomeMac /></div>
     
-    <div style={{fontSize: '24px', marginLeft:'10%', marginTop:'40px'}}>
-      Former MRes/ MSc group members :
+    <div style={{fontSize: '20px', marginLeft:'10%', marginTop:'40px'}}>
+      Former MRes/ MSc group members:
     </div>
-    <div style={{fontSize: '18px', marginLeft:'10%',marginTop:'15px'}}>
+    <div style={{fontSize: '14px', marginLeft:'10%',marginTop:'15px'}}>
     • 2021-2022 : SMB Adina Avram, MCB Lisa Casteller, SMB Olivia Smith, MCB Vicky Xu, ABB Ayush Upadhyay, MCB Marco Leong
     </div>
-    <div style={{fontSize: '18px', marginLeft:'10%', marginTop:'5px', marginBottom:'30px'}}>
+    <div style={{fontSize: '14px', marginLeft:'10%', marginTop:'5px', marginBottom:'30px'}}>
     • 2020-2021 : SMB Mumu Sottatipreedawong, MCB Connor Daniels, ABB Francesca Channon
     </div>
+    
     </Content>
 
     <Footer

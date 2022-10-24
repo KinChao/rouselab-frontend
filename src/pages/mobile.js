@@ -35,6 +35,16 @@ function PeoplePage0() {
     
     <div className='left5'><Homem /></div>
     
+    <div style={{fontSize: '16px', marginLeft:'5%', marginTop:'40px'}}>
+      Former MRes/ MSc group members :
+    </div>
+    <div style={{fontSize: '12px', marginLeft:'5%',marginTop:'15px'}}>
+    • 2021-2022 : SMB Adina Avram, MCB Lisa Casteller, SMB Olivia Smith, MCB Vicky Xu, ABB Ayush Upadhyay, MCB Marco Leong
+    </div>
+    <div style={{fontSize: '12px', marginLeft:'5%', marginTop:'5px', marginBottom:'30px'}}>
+    • 2020-2021 : SMB Mumu Sottatipreedawong, MCB Connor Daniels, ABB Francesca Channon
+    </div>
+
     </Content>
 
     <Footer
