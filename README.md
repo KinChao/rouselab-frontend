@@ -2,7 +2,7 @@
 Self-motivated project - Written in JavaScript using React with AntDesign CSS; infrasturture is set up mostly following this youtube tutorial https://youtu.be/98BzS5Oz5E4; 
 
 ## Updates
-**v3.3 update 25/10/2022 - Added a new breakpoint for Mac resolution in PeoplePage; Added alumni in PeoplePage**
+**v3.3 update 24/10/2022 - Added a new breakpoint for Mac resolution in PeoplePage; Added alumni in PeoplePage**
 
 **v3.2 update 16/10/2022 - Adopted the banner & logo design in mobile version**
 
