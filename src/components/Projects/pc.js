@@ -1,8 +1,10 @@
-import React from 'react'
+  import React from 'react'
 import { Typography, Col, Row, Layout } from 'antd'
 import './project.css'
 import AppHeader from '../Common/header'
 import { Helmet } from 'react-helmet';
+import Kin1 from './images/Kin4.png'
+import Kin2 from './images/Kin3.JPG'
 import ayush1 from './images/ayush1.jpg'
 import ayush2 from './images/ayush2.jpg'
 import Banner from '../Common/banner';
@@ -130,8 +132,97 @@ const ProjectPage1 = () => {
     
     </div>
 
+    
 
-    <p style={{color:'#f0f2f5'}}>1</p>
+    <div className="workout-details4">
+
+<Row>
+  <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span: 2 }}></Col>
+  <Col xs={{ span: 22 }} sm={{ span: 5 }} md={{ span: 20 }}>
+  <div style={{ fontSize: '25px', textAlign: 'center', marginTop:'30px' }}>A multiscale simulation approach to characterise the glidesome-associated connector (GAC) from <i>Toxoplasma gondii</i> - Kin</div>
+  </Col>
+  <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span: 2 }}></Col>
+
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+  <Col xs={{ span: 22 }} sm={{ span: 20 }} md={{ span: 20 }}>
+
+  <div style={{fontSize: '18px',textAlign: 'left', marginTop:'20px'}}>Apicomplexan parasite is a phylum of parasites which causes a range of diseases in humans and animals, with the most significant being malaria from <i>Plasmodium falciparum</i> (Pf) and toxoplasmosis from <i>Toxoplasma gondii</i> (Tg). These parasites employ a unique form of substrate-dependent locomotion known as gliding motility to invade host cells, egress from the infected cells and cross biological barriers. Gliding motility is powered by an actin-myosin based motor assembly known as glidesome and a proper connection between F-actin within the glidesome and transmembrane surface adhesins is crucial for the process.</div>
+  
+
+  
+  </Col>
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+
+
+
+  
+
+
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+  <Col xs={{ span: 22 }} sm={{ span: 20 }} md={{ span: 20 }}>
+    
+  <div style={{fontSize: '18px',textAlign: 'left', marginTop:'20px'}}>A new protein, termed the glidesome-associated connector (GAC) has been recently discovered which represents the key molecular link that establish the proper connection needed for the gliding motility. GAC is a highly conserved across the entire Apicomplexa phylum and previous low-resolution small-angle X-ray scattering (SAXS) study of TgGAC presented it as a ~27 nm club-shaped molecule that forms complexes with three binding partners (PA lipid, F-actin and surface adhesin) through different motifs [1]. </div>
+  </Col>
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+
+
+  <Col xs={{ span: 0 }} sm={{ span: 3 }} md={{ span: 3}}></Col>
+  <Col xs={{ span: 24 }} sm={{ span: 8 }} md={{ span: 6 }}>
+
+    <div style={{marginTop:'70px'}}>
+      <img alt=""
+      src={Kin1}/>
+    </div>
+    <div style={{fontSize: '12px',textAlign: 'center', marginTop:'20px', marginLeft:'-10px'}}>Fig1 : Typical cgMD setup</div>
+
+  </Col>
+  <Col xs={{ span: 0 }} sm={{ span: 0 }} md={{ span: 3}}></Col>
+  <Col xs={{ span: 24 }} sm={{ span: 10 }} md={{ span: 8 }}>
+    <div>
+      <img alt=""
+      src={Kin2}/>
+    </div>
+    <div style={{fontSize: '12px',textAlign: 'center', marginTop:'10px'}}>Fig2: cgMD trajectory analysis showing GAC binds PA membrane</div>
+
+  </Col>
+  <Col xs={{ span: 0 }} sm={{ span: 3 }} md={{ span: 4}}></Col>
+
+  
+
+
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+  <Col xs={{ span: 22 }} sm={{ span: 20 }} md={{ span: 20 }}>
+  <div style={{fontSize: '18px',textAlign: 'left', marginTop:'40px'}}>We have recently obtained a new high resolution crystal structure of TgGAC [2]* which represents a new closed form of GAC. This unexpected closed state poses new questions about how GAC carries out its role. To help answer the question, we used coarse-grained MD (cgMD) and comparative analysis to gain further insight into the closed form of GAC. We also used steered MD, cg2at backmapping and atomistic MD (atMD) to model the open form, which allowed us to fit the SAXS data better. Overall, our result showed that the closed form could be an important functional state.</div>
+  </Col>
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2}}></Col>
+
+
+  
+
+
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+  <Col xs={{ span: 22 }} sm={{ span: 20 }} md={{ span: 20 }}>
+
+  <div style={{fontSize: '18px',textAlign: 'left', marginTop:'20px', marginBottom:'20px'}}>Kin will be presenting a poster about this work in the upcoming 5th Manchester Multiscale Conference (03 April 2023 – 05 April 2023). Please go say hi if you are also going and are interested!<div><Text underline><a rel="noreferrer noopener noreferrer" href="https://www.ccpbiosim.ac.uk/events/upcoming-events/eventdetail/89/18,19,20/5th-manchester-multiscale-conference" target="_blank">https://www.ccpbiosim.ac.uk/events/upcoming-events/eventdetail/89/18,19,20/5th-manchester-multiscale-conference</a></Text></div></div>
+
+  </Col>
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+
+
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+  <Col xs={{ span: 22 }} sm={{ span: 20 }} md={{ span: 20 }}>
+  <div style={{fontSize: '24px',textAlign: 'left',}} >Reference:</div>
+  
+  <div>[1] Kumar, Amit, et al. “Secondary Structure and X-Ray Crystallographic Analysis of the Glideosome-Associated Connector (GAC) from <i>Toxoplasma Gondii</i>.” Crystals., vol. 12, no. 1, 2022, <Text underline><a rel="noreferrer noopener noreferrer" href="https://doi.org/10.3390/cryst12010110" target="_blank">https://doi.org/10.3390/cryst12010110</a></Text></div>
+  <div>[2] Kumar, Amit, et al. “Structural and regulatory insights into the glideosome-associated connector from <i>Toxoplasma gondii</i>.”  bioRxiv 2023.01.23.525158, <Text underline><a rel="noreferrer noopener noreferrer" href="https://doi.org/10.1101/2023.01.23.525158" target="_blank">https://doi.org/10.1101/2023.01.23.525158</a></Text></div>
+  <div style={{marginBottom:'20px'}}>* In collaboration with Prof. Steve Matthews’ group</div>
+
+  </Col>
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+
+</Row>
+
+</div>
 
     
     </Content>

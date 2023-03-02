@@ -6,6 +6,8 @@ import ayush1 from './images/ayush1.jpg'
 import ayush2 from './images/ayush2.jpg'
 import AppHeader2 from '../Common/header2';
 import Banner from '../Common/bannerM';
+import Kin1 from './images/Kin4.png'
+import Kin2 from './images/Kin3.JPG'
 
 
 const {  Text} = Typography;
@@ -157,11 +159,135 @@ const ProjectPage0 = () => {
 
 
     </Row>
+
+
+    
     
     </div>
 
+    <div style={{marginTop:'20px'}}></div>
+    <div className="workout-details5">
 
-   
+<Row>
+  <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span: 2 }}></Col>
+  <Col xs={{ span: 22 }} sm={{ span: 5 }} md={{ span: 20 }}>
+  <div style={{ fontSize: '20px', textAlign: 'center', marginTop:'30px'}}>A multiscale simulation approach to characterise the glidesome-associated connector (GAC) from <i>Toxoplasma gondii</i></div>
+  <div style={{ fontSize: '20px', textAlign: 'center' }}>Kin</div>
+  </Col>
+  <Col xs={{ span: 1 }} sm={{ span: 5 }} md={{ span: 2 }}></Col>
+
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+  <Col xs={{ span: 22 }} sm={{ span: 20 }} md={{ span: 20 }}>
+
+  <div style={{fontSize: '14px',textAlign: 'left' , marginTop:'30px', marginBottom:'20px'}}>Apicomplexan parasite is a phylum of parasites which causes a range of diseases in humans and animals, with the most significant being malaria from Plasmodium falciparum (Pf) and toxoplasmosis from Toxoplasma gondii (Tg). These parasites employ a unique form of substrate-dependent locomotion known as gliding motility to invade host cells, egress from the infected cells and cross biological barriers. Gliding motility is powered by an actin-myosin based motor assembly known as glidesome and a proper connection between F-actin within the glidesome and transmembrane surface adhesins is crucial for the process.</div>
+  
+
+  
+  </Col>
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+
+
+
+  
+
+
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+  <Col xs={{ span: 22 }} sm={{ span: 20 }} md={{ span: 20 }}>
+    
+  <div style={{fontSize: '14px',textAlign: 'left'}}>A new protein, termed the glidesome-associated connector (GAC) has been recently discovered which represents the key molecular link that establish the proper connection needed for the gliding motility. GAC is a highly conserved across the entire Apicomplexa phylum and previous low-resolution small-angle X-ray scattering (SAXS) study of TgGAC presented it as a ~27 nm club-shaped molecule that forms complexes with three binding partners (PA lipid, F-actin and surface adhesin) through different motifs [1]. </div>
+  </Col>
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+
+
+  <Col xs={{ span: 0 }} sm={{ span: 3 }} md={{ span: 3}}></Col>
+
+  <Col xs={{ span: 3 }} sm={{ span: 3 }} md={{ span: 3}}></Col>
+  <Col xs={{ span: 18 }} sm={{ span: 8 }} md={{ span: 8 }}>
+
+    <div style={{marginTop:'10px'}}>
+      <img alt=""
+      src={Kin1}/>
+    </div>
+    <div style={{fontSize: '10px',textAlign: 'center'}}>Fig1 : Typical cgMD setup</div>
+
+  </Col>
+  <Col xs={{ span: 3 }} sm={{ span: 3 }} md={{ span: 3}}></Col>
+
+
+  <Col xs={{ span: 0 }} sm={{ span: 3 }} md={{ span: 3}}></Col>
+  <Col xs={{ span: 23 }} sm={{ span: 10 }} md={{ span: 10 }}>
+  <div style={{marginTop:'30px'}}>
+      <img alt=""
+      src={Kin2}/>
+    </div>
+    <div style={{fontSize: '10px',textAlign: 'center', marginTop:'8px'}}>Fig2: cgMD trajectory analysis showing GAC binds PA membrane</div>
+
+  </Col>
+  <Col xs={{ span: 1 }} sm={{ span: 3 }} md={{ span: 3}}></Col>
+  <Col xs={{ span: 0 }} sm={{ span: 3 }} md={{ span: 3}}></Col>
+
+  
+
+
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+  <Col xs={{ span: 22 }} sm={{ span: 20 }} md={{ span: 20 }}>
+  <div style={{fontSize: '14px',textAlign: 'left', marginTop:'30px'}}>We have recently obtained a new high resolution crystal structure of TgGAC [2]* which represents a new closed form of GAC. This unexpected closed state poses new questions about how GAC carries out its role. To help answer the question, we used coarse-grained MD (cgMD) and comparative analysis to gain further insight into the closed form of GAC. We also used steered MD, cg2at backmapping and atomistic MD (atMD) to model the open form, which allowed us to fit the SAXS data better. Overall, our result showed that the closed form could be an important functional state.</div>
+  </Col>
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2}}></Col>
+
+
+  
+
+
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+  <Col xs={{ span: 22 }} sm={{ span: 20 }} md={{ span: 20 }}>
+
+  <div style={{fontSize: '14px',textAlign: 'left', marginTop:'20px', marginBottom:'30px'}}>Kin will be presenting a poster about this work in the upcoming <div><Text underline><a rel="noreferrer noopener noreferrer" href="https://www.ccpbiosim.ac.uk/events/upcoming-events/eventdetail/89/18,19,20/5th-manchester-multiscale-conference" target="_blank">5th Manchester Multiscale Conference</a></Text></div> (03 April 2023 – 05 April 2023). Please go say hi if you are also going and are interested!</div>
+
+  </Col>
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+
+
+
+
+
+
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+  <Col xs={{ span: 22 }} sm={{ span: 20 }} md={{ span: 20 }}>
+  <div style={{fontSize: '20px',textAlign: 'left',}} >Reference:</div> 
+  </Col>
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+  <Col xs={{ span: 1 }} sm={{ span: 1 }} md={{ span: 1 }}><div style={{fontSize: '12px',textAlign: 'left'}}>1. </div></Col>
+  <Col xs={{ span: 21 }} sm={{ span: 19 }} md={{ span: 19 }}> 
+  <div style={{fontSize: '12px',textAlign: 'left'}}> Kumar, Amit, et al. “Secondary Structure and X-Ray Crystallographic Analysis of the Glideosome-Associated Connector (GAC) from <i>Toxoplasma Gondii</i>.” Crystals., vol. 12, no. 1, 2022, <Text underline ><a rel="noreferrer noopener noreferrer" href="https://doi.org/10.3390/cryst12010110" target="_blank">https://doi.org/10.3390/cryst12010110</a></Text></div>
+  </Col>
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+
+
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+  <Col xs={{ span: 1 }} sm={{ span: 1 }} md={{ span: 1 }}><div style={{fontSize: '12px',textAlign: 'left'}}>2. </div></Col>
+  <Col xs={{ span: 21 }} sm={{ span: 19 }} md={{ span: 19 }}> 
+  <div style={{fontSize: '12px',textAlign: 'left'}}> Kumar, Amit, et al. “Structural and regulatory insights into the glideosome-associated connector from <i>Toxoplasma gondii</i>.”  bioRxiv 2023.01.23.525158, <Text underline ><a rel="noreferrer noopener noreferrer" href="https://doi.org/10.1101/2023.01.23.525158" target="_blank">https://doi.org/10.1101/2023.01.23.525158</a></Text></div>
+  </Col>
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+
+
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+  <Col xs={{ span: 1 }} sm={{ span: 1 }} md={{ span: 1 }}><div style={{fontSize: '12px',textAlign: 'left'}}>* </div></Col>
+  <Col xs={{ span: 21 }} sm={{ span: 19 }} md={{ span: 19 }}> 
+  <div style={{fontSize: '12px',textAlign: 'left', marginBottom:'20px'}}> In collaboration with Prof. Steve Matthews’ group</div>
+  </Col>
+  <Col xs={{ span: 1 }} sm={{ span: 2 }} md={{ span: 2 }}></Col>
+
+ 
+</Row>
+
+
+
+
+</div>
 
     
     </Content>
