@@ -94,7 +94,7 @@ const HomePage2 = () => (
             <Card
               style = {{background: '#f0f2f5'}}
               bordered={false}
-              cover={<img alt="Cryo-Electron Miscoscopy" src={image2} />}
+              cover={<img alt="Cryo-Electron Microscopy" src={image2} />}
             >
               
             </Card>
