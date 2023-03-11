@@ -46,7 +46,7 @@ function AppHeader2() {
         </div>
         <div className="mobileHidden">
           <Anchor targetOffset="65" affix={false}>
-            <Link className='link1' to='/'>Home</Link>
+            <Link className='link1' to='/Research'>Research</Link>
             <Link className='link1' to='/Publication'>Publications</Link>
             <Link className='link1' to='/People'>People</Link>
             <Link className='link1' to='/Projects'>Projects</Link>
@@ -73,7 +73,7 @@ function AppHeader2() {
             visible={visible}
           >
             <Anchor targetOffset="65" affix={false}>
-              <p><Link className='link1' to='/'>Home</Link></p>
+              <p><Link className='link1' to='/Research'>Research</Link></p>
               <p><Link className='link1' to='/Publication'>Publication</Link></p>
               <p><Link className='link1' to='/People'>People</Link></p>
               <p><Link className='link1' to='/Projects'>Projects</Link></p>

@@ -12,6 +12,8 @@ import AdminPage from './components/admin'
 import Admin2Page from './components/News/admin2'
 import ProjectPage from './components/Projects'
 import GalleryPage from './components/Gallery'
+import ResearchPage from './components/Home2'
+
 import { WorkoutsContextProvider } from './context/WorkoutsContext'
 import { WorkoutsContextProvider2 } from './context/WorkoutsContext2'
 
@@ -20,6 +22,7 @@ const Router = () => {
   return (
     <Routes>
       <Route path="/" element={<App />} />
+      <Route path="/Research" element={<ResearchPage />} />
       <Route path="/login" element={<LoginPage />} />
       <Route path="/signup" element={<SignupPage />} />
       <Route path="/Home" element={<HomePage />} />
