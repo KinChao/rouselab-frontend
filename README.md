@@ -4,6 +4,8 @@ Self-motivated project - Written in JavaScript using React with AntDesign CSS; i
 Current frontend deploy (with Netlify): https://idyllic-belekoy-f5ddfa.netlify.app/
 
 ## Updates
+**v4 update 11/03/2023 - Home page revamp, incorporating Vicky's artwork in the HomePage**
+
 **v3.3 update 24/10/2022 - Added a new breakpoint for Mac resolution in PeoplePage; Added alumni in PeoplePage**
 
 **v3.2 update 16/10/2022 - Adopted the banner & logo design in mobile version**
